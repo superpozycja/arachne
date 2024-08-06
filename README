@@ -1,0 +1,8 @@
+                                  arachne
+
+arachne is a simple program to help you navigate a codebase. it crawls the
+specified folder looking for import-like statements, and generates a directed
+graph of the parsed files in order to show the relation between sources, or to
+generate a toposort allowing you to linearly read the code in order to better
+understand it from the bottom up. plan is to support in-scope and out-of-scope 
+lists, multiple languages, and eventually query indiviudal symbols.
